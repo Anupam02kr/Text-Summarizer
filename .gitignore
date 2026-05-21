@@ -1,0 +1,27 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Machine Learning Model weights (Too large for Git)
+*.safetensors
+*.bin
+*.pt
+*.h5
+saved_summary_model/model.safetensors
+# Note: You can push the config.json and tokenizer files if they are small, 
+# but ignoring the whole folder is safer if you want to avoid hitting GitHub limit.
+saved_summary_model/
